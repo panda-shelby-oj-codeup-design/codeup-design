@@ -1,0 +1,36 @@
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+h1 {
+   text-align: center;
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+main {
+    font-family: 'Anton', sans-serif;
+}
+/*end*/
