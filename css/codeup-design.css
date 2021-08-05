@@ -18,6 +18,16 @@ nav .nav-item {
     bottom: 6px;
 }
 
+
+.container-fluid {
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+article {
+    font-family: 'Anton', sans-serif;
+}
+
 h1 {
    text-align: center;
     text-transform: uppercase;
@@ -31,7 +41,7 @@ h2 {
 }
 
 main {
-    font-family: 'Anton', sans-serif;
+    background-color: #E6E6E6;
 }
 /*.orange-circle{*/
 /*    background: orange;*/
@@ -67,17 +77,27 @@ main {
 /*.h4 {*/
 /*    background: grey;*/
 /*}*/
+body {
+    font-family: 'Anton', sans-serif;
+}
 .flex-container {
     display: flex;
-    background-color: #DDD8D8;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-transform: uppercase;
 }
 
 .flex-container > div {
     background-color: #f1f1f1;
-    height: 25px;
-    width: 25px;
+    height: 100px;
+    width: 100px;
     padding: 29px;
     margin: 17px;
-    border-radius: 50%
+    border-radius: 50%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
