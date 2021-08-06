@@ -78,6 +78,33 @@ h5 {
     text-transform: uppercase;
 }
 
-img {
+.projectImg {
+    height: 9rem;
+    width: 14rem;
+    border: #F0F0F0 8px solid;
+}
 
+.featuredProjects {
+margin-bottom: 4rem;
+}
+
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.flex-container2 > div {
+    height: 18px;
+    width: 18px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
