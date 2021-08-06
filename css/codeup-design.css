@@ -11,17 +11,12 @@ nav a {
     width: 100%;
     top: 37px;
     z-index: -1000;
+    background-color: white;
 }
 
 nav .nav-item {
     position: relative;
     bottom: 6px;
-}
-
-
-.container-fluid {
-    background-color: white;
-    flex-wrap: wrap;
 }
 
 article {
@@ -40,45 +35,9 @@ h2 {
     font-size: 48px;
 }
 
-main {
-    background-color: #E6E6E6;
-}
-/*.orange-circle{*/
-/*    background: orange;*/
-/*    width: 2em;*/
-/*    height: 2em;*/
-/*    border-radius: 1em;*/
-/*    margin: .5em;*/
-/*    box-sizing: border-box;*/
-/*    display: flex;*/
-/*}*/
-/*.container {*/
-/*    display: flex;*/
-/*}*/
-/*.holder {*/
-/*    flex: 1;*/
-/*    margin: 1%;*/
-/*    border-radius: 50%;*/
-/*}*/
-/*.holder:before {*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    padding-top: 100%;*/
-/*}*/
-/*.h1 {*/
-/*    background: blue;*/
-/*}*/
-/*.h2 {*/
-/*    background: red;*/
-/*}*/
-/*.h3 {*/
-/*    background: green;*/
-/*}*/
-/*.h4 {*/
-/*    background: grey;*/
-/*}*/
 body {
     font-family: 'Anton', sans-serif;
+    background-color: #E6E6E6;
 }
 .flex-container {
     display: flex;
@@ -99,5 +58,26 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    border: white 8px solid;
+
+}
+hr {
+    width: 50%;
+}
+
+h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    padding: 15px;
+}
+
+.container {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+}
+
+img {
 
 }
