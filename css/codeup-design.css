@@ -79,23 +79,26 @@ h5 {
 }
 
 .projectImg {
-    height: 9rem;
-    width: 14rem;
+    height: 13rem;
+    width: 20rem;
     border: #F0F0F0 8px solid;
+
 }
 
 .featuredProjects {
-margin-bottom: 4rem;
+/*margin-bottom: 4rem;*/
+
 }
 
 
 .flex-container2 {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     font-family: 'Anton', sans-serif;
     color: black;
     text-transform: uppercase;
-
+    /*justify-content: flex-end;*/
+    margin-bottom: 4rem;
 }
 
 .flex-container2 > div {
@@ -107,4 +110,13 @@ margin-bottom: 4rem;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.featuredProjects.flex-container2 {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.circles {
+    /*margin: 5px;*/
 }
